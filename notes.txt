@@ -27,3 +27,10 @@ komenda:
 flask --app flaskr init-db
 
 wywolujemy funkcje init_db w pliku db.py w lokalizacji flaskr
+
+
+4. Blueprints and Views
+
+Widoki to taki zestaw instrukcji dla dalnego zapytania URL. 
+
+Blueprint to zestaw powiązanych ze sobą widoków.
