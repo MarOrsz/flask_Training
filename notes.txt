@@ -1,0 +1,29 @@
+running app, from root directory:
+
+
+
+1. Application Factory
+
+Jest konieczność utworzenia instancji flaska:
+
+app = Flask(__name__, instance_relative_config=True)
+
+
+w pliku __init__.py dokonuje się konfiguracje
+
+
+Aplikacje uruchamia się z zrodlowego folderu projektu:
+
+flask --app flaskr run --debug
+
+
+2. Connection to DATABASE
+
+g - obiekt flaska, ktory moze byc uzywany przez wiele funkcji w czasie zapytania. 
+Polaczenie jest utrzymane jesli get_db jest wywolane poraz drugi podczas tego samego zapytania.
+
+
+komenda:
+flask --app flaskr init-db
+
+wywolujemy funkcje init_db w pliku db.py w lokalizacji flaskr

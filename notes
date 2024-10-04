@@ -1,3 +1,0 @@
-running app, from root directory:
-
-flask --app flaskr run --debug
